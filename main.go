@@ -140,7 +140,7 @@ func main() {
 	mux.HandleFunc("/builds", getBuilds)
 
 	server := http.Server{
-		Addr:         ":80",
+		Addr:         ":8080",
 		Handler:      mux,
 		ReadTimeout:  1 * time.Second,
 		WriteTimeout: 1 * time.Second,
