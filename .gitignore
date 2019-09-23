@@ -13,3 +13,4 @@
 
 *.tfstate*
 .ENV
+.terraform
