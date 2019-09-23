@@ -59,6 +59,7 @@ where the build date, ami id, and commit hash is the latest from the the builds 
 
   
 The infrastructure to support the web app should have:
+
     1) all resources in us-west-2
     2) 1 LB (any type you feel is suitable)
     3) 1 EC2 instance
